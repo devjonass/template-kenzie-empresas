@@ -1,0 +1,142 @@
+@media(min-width: 1025px) {
+    header {
+        background: var(--color-white);
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    header>div {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 15px;
+
+    }
+
+    #btn_mobile {
+        display: none;
+    }
+
+    .container_burgs>img {
+        width: 150px;
+        object-fit: cover;
+
+    }
+
+    #btn_burg {
+        display: none;
+    }
+
+    #btns_header {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #btns_header>button {
+        width: 142px;
+        height: 48px;
+        border: 1px solid #4200FF;
+        color: #4200FF;
+        font-size: 18px;
+        background-color: var(--color-white);
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+    #btns_header>button:hover {
+        background-color: #4200FF;
+        color: var(--color-white);
+    }
+
+    main {
+        width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        gap: 30px;
+
+    }
+    #checkbox-menu{
+        display: none;
+    }
+    select {
+        font-weight: 400;
+        font-size: 18px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        width: 100%;
+        background: url('/src/assets/img/Arrow\ 2.png') 95.5% 50% no-repeat;
+    }
+
+    main>.ls-custom-select>select {
+        margin-top: 20px;
+        width: 550px;
+        height: 52.18px;
+        background-color: #4200FF;
+        color: var(--color-white);
+        text-align: center;
+        margin-bottom: 20px;
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+    .image_main {
+        margin-top: 20px;
+    }
+
+
+    .list_companies_name_and_hours {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        overflow-y: scroll;
+        height: 500px;
+    }
+    .list_companies_name_and_hours::-webkit-scrollbar {
+        width: 12px;               /* width of the entire scrollbar */
+      }
+      
+      .list_companies_name_and_hours::-webkit-scrollbar-track {
+        background: transparent;        /* color of the tracking area */
+      }
+      
+      .list_companies_name_and_hours::-webkit-scrollbar-thumb {
+        background-color: #4200FF;   
+        border-radius: 20px; 
+        height: 220px;      
+       
+      }
+
+    .list_companies_name_and_hours>li {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        width: 489px;
+        height: 134.99px;
+        padding: 20px;
+        background: #FFFFFF;
+        border-bottom: 1px solid #4200FF;
+    }
+
+    .list_companies_name_and_hours>li>button {
+        width: max-content;
+        padding: 5px;
+        height: 32px;
+        border: 1px solid #4200FF;
+        border-radius: 255px;
+        font-weight: 400;
+        font-size: 16px;
+       margin-top: -11px;
+        color: #4200FF;
+    }
+
+
+
+
+
+}

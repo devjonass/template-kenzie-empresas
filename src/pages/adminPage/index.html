@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/globalStyles.css">
+    <link rel="stylesheet" href="/src/pages/adminPage/index.css">
+    <link rel="stylesheet" href="/src/pages/modal/index.css">
+    <title>Admin page</title>
+</head>
+
+<body>
+    <header>
+        <div class="container_burgs">
+            <img src="/src/assets/img/Group 42.png" alt="logo">
+
+        </div>
+
+        <div id="btns_header">
+            <button id="logout">Logout</button>
+
+    </header>
+    <main>
+       <div class="title_companies">
+        <h3>Departamentos</h3>
+        <select id="select_home">
+
+            <option id="option" value="Selecionar">Selecionar Empresa</option>
+        </select>
+
+        <button id="btn_create"><img src="/src/assets/img/Vector.png" alt="vector">Criar</button>
+       </div> 
+       <div class="list_departments">
+        <ul class="list_departaments_descriptions">
+
+
+        </ul>
+    </div>
+
+    <div class="users_register">
+        <h3>Usuários cadastrados</h3>
+
+    </div>
+        <div class="list_users">
+            <ul class="list_users_registers">
+
+            </ul>
+        </div>
+    </main>
+
+    <script type="module" src="/src/pages/adminPage/index.js"></script>
+</body>
+
+</html>

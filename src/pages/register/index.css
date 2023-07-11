@@ -1,0 +1,190 @@
+@media(min-width: 1025px) {
+    header {
+        width: 100vw;
+        max-width: 100%;
+        background: var(--color-white);
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    header>div {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 15px;
+
+    }
+
+    #btn_mobile {
+        display: none;
+    }
+
+    .container_burgs>img {
+        width: 150px;
+        object-fit: cover;
+
+    }
+
+    #btn_burg {
+        display: none;
+    }
+
+    #btns_header {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #btns_header>button {
+        width: 142px;
+        height: 48px;
+        border: 1px solid #4200FF;
+        color: #4200FF;
+        font-size: 18px;
+        background-color: var(--color-white);
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+    #btns_header>button:hover {
+        background-color: #4200FF;
+        color: var(--color-white);
+    }
+
+    main {
+        display: flex;
+        gap: 30px;
+
+    }
+#image{
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+}
+
+    main>.ls-custom-select>select {
+        margin-top: 20px;
+        width: 550px;
+        height: 52.18px;
+        background-color: #4200FF;
+        color: var(--color-white);
+        text-align: center;
+        margin-bottom: 20px;
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+    #checkbox-menu{
+        display: none;
+    }
+
+
+
+    .modal_wrapper {
+        opacity: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        top: 20%;
+        left: 30%;
+        width: 506px;
+        height: 519px;
+        background: rgba(255, 255, 255, 0.95);
+        padding: 28px;
+    }
+
+    .modal_wrapper>h3 {
+        font-weight: 700;
+        font-size: 40px;
+        color: var(--color-black);
+        margin-bottom: 20px;
+        margin-right: 40%;
+    }
+
+
+    .modal_wrapper>form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .modal_wrapper>form>label {
+        margin-bottom: 10px;
+        font-weight: 400;
+        font-size: 18px;
+        color: var(--color-black);
+    }
+
+    .modal_wrapper>form>input {
+        width: 422px;
+        height: 52px;
+        background: #FFFFFF;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        padding: 5px;
+    }
+
+    .modal_wrapper>form>button {
+        width: 422px;
+        height: 48px;
+        border: 1px solid #4200FF;
+        color: #4200FF;
+        font-size: 18px;
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+    .modal_wrapper>form>button:hover {
+        background-color: #4200FF;
+        color: var(--color-white);
+    }
+
+    .modal_wrapper>form>select {
+        width: 422px;
+        height: 52px;
+        background: #FFFFFF;
+
+        color: rgba(0, 0, 0, 0.5);
+        border: 1px solid rgba(0, 0, 0, 0.3);
+    }
+
+    .others {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .others>p {
+        font-weight: 400;
+        font-size: 18px;
+        color: var(--color-black);
+        margin-bottom: 15px;
+    }
+
+    .others>button {
+        width: 422px;
+        height: 48px;
+        border: 1px solid #4200FF;
+        color: #4200FF;
+        font-size: 18px;
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+    .others>button:hover {
+        background-color: #4200FF;
+        color: var(--color-white);
+    }
+
+
+
+
+
+
+}

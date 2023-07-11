@@ -1,0 +1,9 @@
+ - Colocar Deus na frente 
+ 
+1- rodar a api localmente
+2- analisar figma da aplicação 
+3- fazer o mobile first e depois a versão desktop
+4- fazer o mais díficil que é as funcionalidades, o que pede na rúbrica
+5- se possível, deixar o css pra depois
+6- começar passo a passo, primeiro a págima home, fazer as funcionalidades
+7- ler e reler o que realmente pede no canvas sobre a entrega
